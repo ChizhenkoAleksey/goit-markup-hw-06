@@ -19,6 +19,7 @@ html {
 --none-color: rgba(0, 0, 0, 0);
 --add-color: rgba(255, 255, 255, 0.6);
 --client-color: #AFB1B8;
+ 
 
 
 
@@ -243,6 +244,7 @@ h1 {
     width: 528px;
     height: 581px;
     background-color: var(--while-color);
+    padding: 40px;
     
     
 }
@@ -792,4 +794,73 @@ border-radius: 2px;
       border-radius: 2px;
       background-color: var(--pretty-color);
       transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .modal p {
+      text-align: center;
+      margin-top: 0;
+      margin-bottom: 12px;
+      font-weight: 700;
+      font-size: 20px;
+      
+  }
+  .form {
+      
+      width: 448px;
+      height: 342px;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .form-field {
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+      margin-bottom: 10px;
+      font family: Roboto;
+    font style: 400;
+    font size: 12px;
+      
+  }
+  .form-field label {
+    color: var(--active-color);
+    font family: Roboto;
+    font style: 400;
+    font size: 12px;
+    
+    
+  }
+  .form-field input {
+      width: 100%;
+      height: 40px;
+      margin: 0;
+      padding-left: 40px;
+      border: 1px solid rgba(33, 33, 33, 0.2);
+      outline: none;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .form-field textarea {
+    width: 100%;
+    height: 120px;
+    padding-top: 12px;
+    padding-left: 16px;
+    margin-top: 4px;
+    margin-bottom: 20px;
+    resize: none;
+    font-size: 14px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    outline: none;
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
+  }
+  
+  .checkbox {
+      width: 423px;
+      height: 24px;
+      margin-left: auto;
+      margin-right: auto;
+      Font family: Roboto;
+      Font style: Regular;
+      Font size: 14px;
   }
