@@ -912,7 +912,7 @@ border-radius: 2px;
   .subscription-button::after {
     position: absolute;
     content: '';
-    background-image: url(../images/icons.svg/symbol-defs.svg#icon-iconsend);
+    background-image: url(../images/icons.svg/iconsend.svg);
     width: 24px;
     height: 24px;
     
@@ -952,4 +952,46 @@ border-radius: 2px;
   .form-input:focus {
       border: 1px solid var(--pretty-color);
       color: var(--pretty-color);
+  }
+  .form-input:focus ~ .form-icon {
+      fill: var(--pretty-color);
+  }
+  .checkbox-label a {
+      color: var(--pretty-color);
+      text-decoration: underline;
+      cursor: pointer;
+  }
+  .checkbox-label {
+    
+    display: flex;
+    align-items: center;
+    padding-left: 7px;
+    
+  }
+  .checkbox {
+    Font-family: Roboto;
+    Font-style: 400;
+    Font-size: 14px;
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--active-color);
+    margin-bottom: 30px;
+  }
+  .checkbox-input {
+    appearance: none;
+  }
+  .span-icon {
+    display: inline-block;
+    width: 16px;
+    height: 15px;
+    margin-right: 10px;
+    background-color: var(--while-color);
+    border: 2px solid var(--black-color);
+    border-radius: 4px;
+    
+  }
+  .checkbox-input:checked + .span-icon {
+      background-color: var(--pretty-color);
+      border: var(--pretty-color);
+      background-image: url(../images/icons.svg/iconcheck.svg);
   }
