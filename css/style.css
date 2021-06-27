@@ -830,7 +830,7 @@ border-radius: 2px;
   .form-label {
     color: var(--active-color);
     font-family: Roboto;
-    font-style: 400;
+    font-weight: 400;
     font-size: 12px;
     
     
@@ -972,7 +972,8 @@ border-radius: 2px;
     display: flex;
     align-items: center;
     padding-left: 7px;
-    
+    font-weight: 400;
+    font-size: 14px;
   }
   .checkbox {
     Font-family: Roboto;
